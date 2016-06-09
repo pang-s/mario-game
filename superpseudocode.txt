@@ -1,0 +1,100 @@
+import pygame modules
+define some colours
+function to terminate
+function to wait for player to press a key
+	forever loop
+		terminate program if esc or x corner is pressed
+class coin sprite
+	load image and set left corner as passed in location
+class plant sprite
+	load image and set left corner as passed in location
+class platform sprite
+	set height, width, colour
+class mario sprite
+	set speed vectors
+	set jump trigger to false
+	function __init__ sprite image, passed in location
+	function change speed x and y
+	function update 
+	save the old x position, update and see if the player collided
+		if player collided go back to old x position
+	save the old y position, update and see if the player collided
+	block_hit_list = collision between player and platforms
+	for block in block_hit_list:
+		player collided go back to old position
+		stop player vertical movement
+		start counting frames since player hit something
+		if player recently touched the ground and jumped but ask to jump then change y velocity
+		increment frame counters for since jumped and since collision
+	function calculate effect of gravity
+	check if on ground
+		if so, don't change y position and set frame since collision to 0
+
+set height and width of screen
+set caption
+
+create level 
+	group block list
+	position each block in block list
+	loop through the list and create the platforms/block add it to the list
+	list coins and positions
+	loop through the list create coins and add it to the list
+	list of plants and positions
+	loop through the list create coins and add it to the list
+	return block list
+Repeat create level for 5 levels
+
+load image for player right and left
+set font
+set clock
+show start screen
+update and wait for player to press a key
+
+loop forever
+	set player position
+	set all coin plant and block list
+	set current level, score and lives
+	
+	loop forever
+		if player is doing something
+			if key down
+				if player click x then terminate
+				if player press left then move left
+				if player press right then move right
+				if player press space then jump
+				if player press down then move down
+			if key up
+				if player let go of left or right key then stop moving
+			
+			stop player from moving off the screen
+			set coin hit list and check for collisions
+			score + 4 if hit a  coin
+			set plant hit list and check for collisions
+			lives - 1 if hit a plant
+			if lives < 0 then break
+			
+			update and change levels if touching door
+				if in a level
+				insert coin plant and block list from the next level
+				change level
+				place player at start position
+				repeat this for each door but if at last door
+				break
+			
+			calculate gravity
+			screen fill black
+			
+			ADD CODE TO DRAW things all the sprite and fonts
+			
+			clock.tick limit to 20 frames per sec
+			update screen
+		
+		end screen
+		screen fill black
+		draw score text and message
+		wait for player to press key to continue
+		
+			
+				
+			
+	

@@ -1,0 +1,27 @@
+GAME SETUP
+import modules
+define some colours
+
+function to terminate program
+function to wait for player to press key to continue
+function to draw text
+
+class coin sprite
+class plant sprite
+class platform sprite
+class player sprite
+
+INGAME SETUP
+set height and width of scree
+set caption
+create 5 levels with platform, coins and plant
+
+MAIN PROGRAM
+load image for mario left and right
+set font
+manage how fast screen updates with pygame clock
+show the start screen with font
+display update
+wait for player to press key to start
+
+START GAME
