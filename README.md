@@ -2,7 +2,7 @@
 
 _(a weak as) 8-bit, platform style mario game built with pygame_
 
-<img src="https://raw.githubusercontent.com/pang-s/mario-game/master/screenshot.png?token=APsBvoAnTWTUFBSsVG7tFVjD9xPz6flSks5Xa8blwA%3D%3D" width="500">
+<img src="https://github.com/pang-s/mario-game/blob/master/screenshot.png?raw=true" width="500">
 
 
 ###Requirements:
