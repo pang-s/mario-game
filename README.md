@@ -8,18 +8,13 @@ _(a weak as) 8-bit, platform style mario game built with pygame_
 ###Requirements:
 Pygame and Python 3
 
-####To launch the game run mario-final.py from the CMI.
+####To launch the game run mario.py from the CMI.
 
 ###Instructions:
 Collect as many coins as you can but once you touch the blue door, you will proceed to the next level.
-There are only 5 levels. 
-Have fun! :)
+There are only 5 levels.
+Have fun. ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ
 
 ###Controls:
 
 Arrow keys to move. Space to jump.
-
-###To-do:
-- ~~change PNG files to png~~
-- decide to use mario.py or MARIO-FINAL.py
-- decide if setup.py is needed

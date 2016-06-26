@@ -1,6 +1,4 @@
 #Mario game created by Pang
-import re
-import pygame._view
 import pygame
 import random
 import sys
@@ -423,8 +421,8 @@ def create_level5():
 playerRight = pygame.image.load("images/mario.png")
 playerLeft = pygame.transform.flip(playerRight, True, False)
  
-# The font we use to draw text on the screen (size 27)
-font = pygame.font.SysFont('OCR A EXTENDED', 27)
+# The font we use to draw text on the screen (size 36)
+font = pygame.font.Font(None, 36)
    
 # Used to manage how fast the screen updates 
 clock=pygame.time.Clock()
@@ -564,7 +562,7 @@ while True:
         block_list.draw(screen)
         coin_list.draw(screen)
         plant_list.draw(screen)
-        drawText("Level: " + str(current_room), font, screen, 90, 30)
+        drawText("Level: " + str(current_room), font, screen, 70, 30)
         drawText("Score: " + str(score), font, screen, 800, 30)
         drawText("Lives: " + str(lives), font, screen, 800, 80)
         # ALL CODE TO DRAW ABOVE THIS COMMENT 
