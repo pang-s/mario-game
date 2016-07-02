@@ -18,3 +18,10 @@ Have fun. ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ
 ###Controls:
 
 Arrow keys to move. Space to jump.
+
+
+_**fun fact:** i made this game in my first year of learning python for a school assignment and i handed it in early but it never got marked..._ :pensive: 
+
+_(also in the process of coding, i lost all my work bc my usb broke and i had no backup so i had to rewrite it all again!!)_ :unamused: 
+lesson learnt! :v:
+
